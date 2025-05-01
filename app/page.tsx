@@ -7,6 +7,8 @@ import { Suspense } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 import BlogpostCard from "@/components/general/BlogpostCard";
 
+
+export const revalidate = 60;
 async function getData() {
     await new Promise((resolve)=>setTimeout(resolve,2000))
   
