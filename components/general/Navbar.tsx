@@ -1,11 +1,10 @@
 "use client"
 import Link from 'next/link'
 import React from 'react'
-import { Button, buttonVariants } from '../ui/button'
+import { buttonVariants } from '../ui/button'
 
 
 import {RegisterLink, LoginLink, LogoutLink} from "@kinde-oss/kinde-auth-nextjs/components";
-import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server';
 import { useKindeBrowserClient } from '@kinde-oss/kinde-auth-nextjs';
 const Navbar =  () => {
     // const {getUser} = getKindeServerSession()

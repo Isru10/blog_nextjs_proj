@@ -1,7 +1,3 @@
-
-import { Prisma } from "@prisma/client";
-import Image from "next/image";
-import { it } from "node:test";
 import { prisma } from "./utils/db";
 import { Suspense } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
