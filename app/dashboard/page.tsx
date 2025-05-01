@@ -20,7 +20,7 @@ async function getData(userID:string) {
 const DashboardRoute = async () => {
 const {getUser} = getKindeServerSession()
 const user = await getUser()
-const data = await getData(user?.id)
+const data = await getData(user!.id)
   return (
     <div className="">
       <div className='flex items-center justify-between mb-4'>
